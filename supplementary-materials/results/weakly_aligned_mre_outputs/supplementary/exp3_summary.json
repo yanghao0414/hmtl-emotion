@@ -1,0 +1,54 @@
+{
+  "total_samples": 2250,
+  "conflict_samples": 1205,
+  "conflict_rate": 0.5355555555555556,
+  "overall_accuracy": 0.8582222222222222,
+  "conflict_accuracy": 0.7676348547717843,
+  "non_conflict_accuracy": 0.9626794258373206,
+  "modality_reliability": {
+    "text": {
+      "mean": 0.650538677552549,
+      "std": 0.3094636649015484
+    },
+    "visual": {
+      "mean": 0.5977673478726103,
+      "std": 0.3605995782588322
+    },
+    "audio": {
+      "mean": 0.6570111714673483,
+      "std": 0.32278532001375587
+    }
+  },
+  "modality_selection_in_conflicts": {
+    "text": {
+      "count": 365,
+      "accuracy": 0.7534246575342466
+    },
+    "visual": {
+      "count": 221,
+      "accuracy": 0.8144796380090498
+    },
+    "audio": {
+      "count": 619,
+      "accuracy": 0.7592891760904685
+    }
+  },
+  "per_class_accuracy": {
+    "积极": {
+      "accuracy": 0.8593220338983051,
+      "n_samples": 590
+    },
+    "激活消极": {
+      "accuracy": 0.8649155722326454,
+      "n_samples": 533
+    },
+    "非激活消极": {
+      "accuracy": 0.8488576449912126,
+      "n_samples": 569
+    },
+    "平静": {
+      "accuracy": 0.8602150537634409,
+      "n_samples": 558
+    }
+  }
+}

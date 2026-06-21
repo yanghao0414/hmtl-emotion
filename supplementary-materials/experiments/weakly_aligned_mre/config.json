@@ -1,0 +1,9 @@
+{
+  "samples": 2000,
+  "missing_rate": 0.1,
+  "epochs": 5,
+  "batch_size": 64,
+  "lr": 0.003,
+  "lambda_mre": 0.3,
+  "seed": 42
+}
